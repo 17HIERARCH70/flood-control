@@ -1,8 +1,9 @@
-module flood-control
+module github.com/17HIERARCH70/flood-control
 
 go 1.21.1
 
 require (
+
 	github.com/BurntSushi/toml v1.2.1 // indirect
 	github.com/alicebob/gopher-json v0.0.0-20200520072559-a9ecdc9d1d3a // indirect
 	github.com/alicebob/miniredis/v2 v2.32.1 // indirect
