@@ -2,8 +2,8 @@ package redis
 
 import (
 	"fmt"
+	"github.com/17HIERARCH70/flood-control/internal/config"
 	"github.com/go-redis/redis/v8"
-	"task/internal/config"
 )
 
 // NewClient function to initialize a new Redis client.

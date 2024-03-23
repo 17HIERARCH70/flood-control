@@ -1,4 +1,4 @@
-module task
+module flood-control
 
 go 1.21.1
 

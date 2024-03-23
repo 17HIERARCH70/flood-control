@@ -3,12 +3,12 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/17HIERARCH70/flood-control/internal/config"
+	"github.com/17HIERARCH70/flood-control/internal/services/floodControl"
+	"github.com/17HIERARCH70/flood-control/internal/storage/redis"
 	"log"
 	"net/http"
 	"strconv"
-	"task/internal/config"
-	"task/internal/services/floodControl"
-	"task/internal/storage/redis"
 )
 
 type RequestPayload struct {
