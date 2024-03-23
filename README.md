@@ -9,8 +9,13 @@
 ```bash
 go mod tidy
 ```
+2. Запускаем Redis:
 
-2. Запустите приложение:
+```bash
+redis-server
+```
+
+3. Запустите приложение:
 
 ```bash
 go run app/main.go -config=<config path>
@@ -30,7 +35,7 @@ floodControl:
   periodSeconds: 60
 ```
 
-## Почему использовать Redis?
+## Почему Redis?
 
 Redis был выбран в качестве хранилища данных для управления флудом по следующим причинам:
 
