@@ -2,11 +2,11 @@ package floodControl_test
 
 import (
 	"context"
+	"github.com/17HIERARCH70/flood-control/internal/config"
+	"github.com/17HIERARCH70/flood-control/internal/services/floodControl"
 	"github.com/alicebob/miniredis/v2"
 	"github.com/go-redis/redis/v8"
 	"github.com/stretchr/testify/assert"
-	"task/internal/config"
-	"task/internal/services/floodControl"
 	"testing"
 )
 

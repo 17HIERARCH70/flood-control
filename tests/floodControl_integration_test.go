@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/17HIERARCH70/flood-control/internal/config"
+	"github.com/17HIERARCH70/flood-control/internal/services/floodControl"
+	"github.com/17HIERARCH70/flood-control/internal/storage/redis"
 	"github.com/stretchr/testify/assert"
-	"task/internal/config"
-	"task/internal/services/floodControl"
-	"task/internal/storage/redis"
 )
 
 func TestFloodControlIntegration(t *testing.T) {
